@@ -12,7 +12,7 @@ Then this plugin is for you!
 ## Usage
 
 ```typescript
-import workspaceAliasing from '@kids/vite-plugin-workspace-aliasing';
+import workspaceAliasing from '@kidsi/vite-plugin-workspace-aliasing';
 
 export default defineConfig({
     plugins: [

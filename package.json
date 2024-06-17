@@ -7,7 +7,8 @@
         "vite-plugin", "alias", "monorepo", "workspace"
     ],
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "prepack": "npm run build"
     },
     "author": "Benjamin Kausch <b.kausch@kids-interactive.de>",
     "license": "ISC",
@@ -19,6 +20,7 @@
         "resolve.exports": "^2.0.2"
     },
     "devDependencies": {
-        "@types/node": "^20.14.2"
+        "@types/node": "^20.14.2",
+        "typescript": "5.*"
     }
 }

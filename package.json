@@ -1,0 +1,24 @@
+{
+    "name": "@kidsi/vite-plugin-workspace-aliasing",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "keywords": [
+        "vite-plugin", "alias", "monorepo", "workspace"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "Benjamin Kausch <b.kausch@kids-interactive.de>",
+    "license": "ISC",
+    "description": "Vite Plugin for HRM of NPM workspaces",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "resolve.exports": "^2.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.2"
+    }
+}

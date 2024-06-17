@@ -42,4 +42,4 @@ const workspaceAliasing = (workspaceRootPaths: Array<string>) => ({
     }
 });
 
-module.exports = workspaceAliasing;
+export default workspaceAliasing;

@@ -2,13 +2,15 @@
     "compilerOptions": {
         "target": "ES2020",
         "lib": ["ES2020"],
-        "module": "commonjs",
+        "module": "NodeNext",
         "esModuleInterop": true,
         "declaration": true,
         "outDir": "dist",
         "forceConsistentCasingInFileNames": true,
         "strict": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "moduleResolution": "NodeNext"
     },
     "exclude": [
         "node_modules",

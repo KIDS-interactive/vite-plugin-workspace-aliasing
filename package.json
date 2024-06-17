@@ -6,6 +6,7 @@
     "keywords": [
         "vite-plugin", "alias", "monorepo", "workspace"
     ],
+    "type": "module",
     "scripts": {
         "build": "tsc",
         "prepack": "npm run build"

@@ -1,5 +1,5 @@
 {
-    "name": "@kidsi/vite-plugin-workspace-aliasing",
+    "name": "@kids-interactive/vite-plugin-workspace-aliasing",
     "version": "0.1.2",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
